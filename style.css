@@ -1,0 +1,54 @@
+table{
+    text-align: center;
+    width: 50%;
+    border: 2px solid black;
+    border-collapse:collapse; /* This will ensure the borders are not doubled */
+    box-shadow:0, 0, 0 20px;
+}
+td, th {
+    border: 2px solid black;
+    padding: 10px; /* Apply border to table cells */
+    
+}
+
+nav{
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+#box{
+    color: white;
+    background-color: green;
+}
+
+.flag {
+    width: 800px;
+    height: 600px;
+    position:sticky;
+    left: 500px;
+    padding-bottom: 100px;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    margin:50px
+ 
+}
+.poetry{
+    background-color: green;
+    color: white;
+}
+body{
+    background-image: url(/back_g.jpg);
+    background-size: cover;
+}
+iframe{
+    position: relative;
+    left:350px
+
+}
+
